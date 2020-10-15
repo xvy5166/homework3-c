@@ -20,6 +20,6 @@ int main(void) {
   char *s = readline("Enter an int: ");
   int i = atof(s);
   int digit_s = digit_sum(i);
-  printf("Sum of digits of %s is %d.\n", s, digit_s);
+  printf("sum of digits of %s is %d.\n", s, digit_s);
   return 0;
 }
